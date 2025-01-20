@@ -73,22 +73,24 @@ body{
     margin-left: 15px;
 }
 .redact{
+    width: 25px !important;
+    height: 25px !important;
     background: url(../assets/img/redact.png)center center / cover no-repeat;
     transition: all 250ms;
 }
 .delete{
-    margin: 0px 15px 0px 5px;
+    margin: 2px 15px 0px 5px;
     background: url(../assets/img/delete.svg) center center / cover no-repeat;
     transition: all 250ms;
 }
 .delete:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .redact:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .button_redact{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
 }
